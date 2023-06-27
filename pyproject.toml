@@ -2,7 +2,7 @@
 name = "sample"
 version = "0.0.1"
 description = "sample"
-authors = ["sample <no-reply@sample].co.jp>"]
+authors = ["sample <no-reply@example.com>"]
 readme = "README.md"
 license = "Proprietary"
 packages = [{ include = "sample", from = "src" }]

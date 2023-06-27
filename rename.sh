@@ -8,3 +8,4 @@ mv $oldname.code-workspace $newname.code-workspace
 
 # pyproject.toml内の名前を変更
 sed -i "" "s/$oldname/$newname/g" pyproject.toml
+sed -i "" "s/$oldname/$newname/g" README.md
