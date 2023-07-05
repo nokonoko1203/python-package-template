@@ -3,5 +3,5 @@
 ## usage
 
 ```bash
-% make init name=<your_new_package_name>
+% make init oldname=sample newname=< your_new_package_name >
 ```
