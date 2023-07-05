@@ -1,6 +1,7 @@
-name ?= "sample"
+oldname ?= "sample"
+newname ?= "sample"
 
 init:
 	which poetry || pip3 install poetry
-	./rename.sh sample $(name)
+	./rename.sh $(oldname) $(newname)
 	poetry install
