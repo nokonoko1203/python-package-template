@@ -1,8 +1,9 @@
-oldname ?= "sample"
-newname ?= "sample"
+old ?= "sample"
+new ?= "sample"
 
 init:
 	rm -rf ./venv poetry.lock .git
 	which poetry || pip3 install poetry
-	./rename.sh $(oldname) $(newname)
+	./rename.sh $(old) $(new)
 	poetry install
+
